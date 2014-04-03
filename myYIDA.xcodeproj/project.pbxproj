@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		91EF043C18ED324800F89832 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91EF043B18ED324800F89832 /* Foundation.framework */; };
+		91EF043E18ED324800F89832 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91EF043D18ED324800F89832 /* CoreGraphics.framework */; };
+		91EF044018ED324800F89832 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91EF043F18ED324800F89832 /* UIKit.framework */; };
+		91EF044618ED324800F89832 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 91EF044418ED324800F89832 /* InfoPlist.strings */; };
+		91EF044818ED324800F89832 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 91EF044718ED324800F89832 /* main.m */; };
+		91EF044C18ED324800F89832 /* MainAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 91EF044B18ED324800F89832 /* MainAppDelegate.m */; };
+		91EF044F18ED324800F89832 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91EF044D18ED324800F89832 /* Main.storyboard */; };
+		91EF045218ED324800F89832 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91EF045118ED324800F89832 /* MainViewController.m */; };
+		91EF045418ED324800F89832 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91EF045318ED324800F89832 /* Images.xcassets */; };
+		91EF045B18ED324800F89832 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91EF045A18ED324800F89832 /* XCTest.framework */; };
+		91EF045C18ED324800F89832 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91EF043B18ED324800F89832 /* Foundation.framework */; };
+		91EF045D18ED324800F89832 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91EF043F18ED324800F89832 /* UIKit.framework */; };
+		91EF046518ED324800F89832 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 91EF046318ED324800F89832 /* InfoPlist.strings */; };
+		91EF046718ED324800F89832 /* myYIDATests.m in Sources */ = {isa = PBXBuildFile; fileRef = 91EF046618ED324800F89832 /* myYIDATests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		91EF045E18ED324800F89832 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91EF043018ED324800F89832 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91EF043718ED324800F89832;
+			remoteInfo = myYIDA;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		91EF043818ED324800F89832 /* myYIDA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myYIDA.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		91EF043B18ED324800F89832 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		91EF043D18ED324800F89832 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		91EF043F18ED324800F89832 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		91EF044318ED324800F89832 /* myYIDA-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "myYIDA-Info.plist"; sourceTree = "<group>"; };
+		91EF044518ED324800F89832 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		91EF044718ED324800F89832 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		91EF044918ED324800F89832 /* myYIDA-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "myYIDA-Prefix.pch"; sourceTree = "<group>"; };
+		91EF044A18ED324800F89832 /* MainAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainAppDelegate.h; sourceTree = "<group>"; };
+		91EF044B18ED324800F89832 /* MainAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainAppDelegate.m; sourceTree = "<group>"; };
+		91EF044E18ED324800F89832 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		91EF045018ED324800F89832 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		91EF045118ED324800F89832 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		91EF045318ED324800F89832 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		91EF045918ED324800F89832 /* myYIDATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myYIDATests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		91EF045A18ED324800F89832 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		91EF046218ED324800F89832 /* myYIDATests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "myYIDATests-Info.plist"; sourceTree = "<group>"; };
+		91EF046418ED324800F89832 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		91EF046618ED324800F89832 /* myYIDATests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = myYIDATests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		91EF043518ED324800F89832 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91EF043E18ED324800F89832 /* CoreGraphics.framework in Frameworks */,
+				91EF044018ED324800F89832 /* UIKit.framework in Frameworks */,
+				91EF043C18ED324800F89832 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91EF045618ED324800F89832 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91EF045B18ED324800F89832 /* XCTest.framework in Frameworks */,
+				91EF045D18ED324800F89832 /* UIKit.framework in Frameworks */,
+				91EF045C18ED324800F89832 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		91EF042F18ED324800F89832 = {
+			isa = PBXGroup;
+			children = (
+				91EF044118ED324800F89832 /* myYIDA */,
+				91EF046018ED324800F89832 /* myYIDATests */,
+				91EF043A18ED324800F89832 /* Frameworks */,
+				91EF043918ED324800F89832 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		91EF043918ED324800F89832 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				91EF043818ED324800F89832 /* myYIDA.app */,
+				91EF045918ED324800F89832 /* myYIDATests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		91EF043A18ED324800F89832 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				91EF043B18ED324800F89832 /* Foundation.framework */,
+				91EF043D18ED324800F89832 /* CoreGraphics.framework */,
+				91EF043F18ED324800F89832 /* UIKit.framework */,
+				91EF045A18ED324800F89832 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		91EF044118ED324800F89832 /* myYIDA */ = {
+			isa = PBXGroup;
+			children = (
+				91EF044A18ED324800F89832 /* MainAppDelegate.h */,
+				91EF044B18ED324800F89832 /* MainAppDelegate.m */,
+				91EF044D18ED324800F89832 /* Main.storyboard */,
+				91EF045018ED324800F89832 /* MainViewController.h */,
+				91EF045118ED324800F89832 /* MainViewController.m */,
+				91EF045318ED324800F89832 /* Images.xcassets */,
+				91EF044218ED324800F89832 /* Supporting Files */,
+			);
+			path = myYIDA;
+			sourceTree = "<group>";
+		};
+		91EF044218ED324800F89832 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				91EF044318ED324800F89832 /* myYIDA-Info.plist */,
+				91EF044418ED324800F89832 /* InfoPlist.strings */,
+				91EF044718ED324800F89832 /* main.m */,
+				91EF044918ED324800F89832 /* myYIDA-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		91EF046018ED324800F89832 /* myYIDATests */ = {
+			isa = PBXGroup;
+			children = (
+				91EF046618ED324800F89832 /* myYIDATests.m */,
+				91EF046118ED324800F89832 /* Supporting Files */,
+			);
+			path = myYIDATests;
+			sourceTree = "<group>";
+		};
+		91EF046118ED324800F89832 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				91EF046218ED324800F89832 /* myYIDATests-Info.plist */,
+				91EF046318ED324800F89832 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		91EF043718ED324800F89832 /* myYIDA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91EF046A18ED324800F89832 /* Build configuration list for PBXNativeTarget "myYIDA" */;
+			buildPhases = (
+				91EF043418ED324800F89832 /* Sources */,
+				91EF043518ED324800F89832 /* Frameworks */,
+				91EF043618ED324800F89832 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = myYIDA;
+			productName = myYIDA;
+			productReference = 91EF043818ED324800F89832 /* myYIDA.app */;
+			productType = "com.apple.product-type.application";
+		};
+		91EF045818ED324800F89832 /* myYIDATests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91EF046D18ED324800F89832 /* Build configuration list for PBXNativeTarget "myYIDATests" */;
+			buildPhases = (
+				91EF045518ED324800F89832 /* Sources */,
+				91EF045618ED324800F89832 /* Frameworks */,
+				91EF045718ED324800F89832 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91EF045F18ED324800F89832 /* PBXTargetDependency */,
+			);
+			name = myYIDATests;
+			productName = myYIDATests;
+			productReference = 91EF045918ED324800F89832 /* myYIDATests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		91EF043018ED324800F89832 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Main;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = sirius;
+				TargetAttributes = {
+					91EF045818ED324800F89832 = {
+						TestTargetID = 91EF043718ED324800F89832;
+					};
+				};
+			};
+			buildConfigurationList = 91EF043318ED324800F89832 /* Build configuration list for PBXProject "myYIDA" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 91EF042F18ED324800F89832;
+			productRefGroup = 91EF043918ED324800F89832 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				91EF043718ED324800F89832 /* myYIDA */,
+				91EF045818ED324800F89832 /* myYIDATests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		91EF043618ED324800F89832 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91EF045418ED324800F89832 /* Images.xcassets in Resources */,
+				91EF044618ED324800F89832 /* InfoPlist.strings in Resources */,
+				91EF044F18ED324800F89832 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91EF045718ED324800F89832 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91EF046518ED324800F89832 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		91EF043418ED324800F89832 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91EF044818ED324800F89832 /* main.m in Sources */,
+				91EF045218ED324800F89832 /* MainViewController.m in Sources */,
+				91EF044C18ED324800F89832 /* MainAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91EF045518ED324800F89832 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91EF046718ED324800F89832 /* myYIDATests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		91EF045F18ED324800F89832 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 91EF043718ED324800F89832 /* myYIDA */;
+			targetProxy = 91EF045E18ED324800F89832 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		91EF044418ED324800F89832 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91EF044518ED324800F89832 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		91EF044D18ED324800F89832 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91EF044E18ED324800F89832 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		91EF046318ED324800F89832 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91EF046418ED324800F89832 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		91EF046818ED324800F89832 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		91EF046918ED324800F89832 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		91EF046B18ED324800F89832 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "myYIDA/myYIDA-Prefix.pch";
+				INFOPLIST_FILE = "myYIDA/myYIDA-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		91EF046C18ED324800F89832 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "myYIDA/myYIDA-Prefix.pch";
+				INFOPLIST_FILE = "myYIDA/myYIDA-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		91EF046E18ED324800F89832 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/myYIDA.app/myYIDA";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "myYIDA/myYIDA-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "myYIDATests/myYIDATests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		91EF046F18ED324800F89832 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/myYIDA.app/myYIDA";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "myYIDA/myYIDA-Prefix.pch";
+				INFOPLIST_FILE = "myYIDATests/myYIDATests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		91EF043318ED324800F89832 /* Build configuration list for PBXProject "myYIDA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91EF046818ED324800F89832 /* Debug */,
+				91EF046918ED324800F89832 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91EF046A18ED324800F89832 /* Build configuration list for PBXNativeTarget "myYIDA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91EF046B18ED324800F89832 /* Debug */,
+				91EF046C18ED324800F89832 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		91EF046D18ED324800F89832 /* Build configuration list for PBXNativeTarget "myYIDATests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91EF046E18ED324800F89832 /* Debug */,
+				91EF046F18ED324800F89832 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 91EF043018ED324800F89832 /* Project object */;
+}
