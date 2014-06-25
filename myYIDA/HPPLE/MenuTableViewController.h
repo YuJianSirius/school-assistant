@@ -1,5 +1,5 @@
 //
-//  MainViewController.h
+//  MenuTableViewController.h
 //  SideBarDemo
 //
 //  Created by xiaojia on 4/4/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MainViewController : UIViewController
+@interface MenuTableViewController : UITableViewController
 
 @end

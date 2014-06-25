@@ -7,20 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		918A1CCD19068BB500D997DF /* KeychainItemWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 918A1CCC19068BB500D997DF /* KeychainItemWrapper.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		918A1CCF19068C3200D997DF /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 918A1CCE19068C3200D997DF /* Security.framework */; };
+		91977B8118F5AB160055B16A /* Main_iphone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91977B8018F5AB160055B16A /* Main_iphone.storyboard */; };
+		91E80A7618F771CB002C9C06 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91E80A7518F771CB002C9C06 /* MainViewController.m */; };
+		91E80A7A18F771D7002C9C06 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91E80A7918F771D7002C9C06 /* SWRevealViewController.m */; };
+		91E80A7D18F7722F002C9C06 /* MenuTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91E80A7C18F7722F002C9C06 /* MenuTableViewController.m */; };
+		91E80A8018F7723B002C9C06 /* LabelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91E80A7F18F7723B002C9C06 /* LabelViewController.m */; };
+		91E80A8618F7802A002C9C06 /* A3GridTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 91E80A8318F7802A002C9C06 /* A3GridTableView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		91E80A8718F7802A002C9C06 /* A3GridTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 91E80A8518F7802A002C9C06 /* A3GridTableViewCell.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		91E80A8A18F780BE002C9C06 /* ClassViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91E80A8918F780BE002C9C06 /* ClassViewController.m */; };
 		91EF043C18ED324800F89832 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91EF043B18ED324800F89832 /* Foundation.framework */; };
 		91EF043E18ED324800F89832 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91EF043D18ED324800F89832 /* CoreGraphics.framework */; };
 		91EF044018ED324800F89832 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91EF043F18ED324800F89832 /* UIKit.framework */; };
 		91EF044618ED324800F89832 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 91EF044418ED324800F89832 /* InfoPlist.strings */; };
 		91EF044818ED324800F89832 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 91EF044718ED324800F89832 /* main.m */; };
 		91EF044C18ED324800F89832 /* MainAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 91EF044B18ED324800F89832 /* MainAppDelegate.m */; };
-		91EF044F18ED324800F89832 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91EF044D18ED324800F89832 /* Main.storyboard */; };
-		91EF045218ED324800F89832 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91EF045118ED324800F89832 /* MainViewController.m */; };
+		91EF045218ED324800F89832 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91EF045118ED324800F89832 /* LoginViewController.m */; };
 		91EF045418ED324800F89832 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91EF045318ED324800F89832 /* Images.xcassets */; };
 		91EF045B18ED324800F89832 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91EF045A18ED324800F89832 /* XCTest.framework */; };
 		91EF045C18ED324800F89832 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91EF043B18ED324800F89832 /* Foundation.framework */; };
 		91EF045D18ED324800F89832 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91EF043F18ED324800F89832 /* UIKit.framework */; };
 		91EF046518ED324800F89832 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 91EF046318ED324800F89832 /* InfoPlist.strings */; };
 		91EF046718ED324800F89832 /* myYIDATests.m in Sources */ = {isa = PBXBuildFile; fileRef = 91EF046618ED324800F89832 /* myYIDATests.m */; };
+		91EF047518ED32C700F89832 /* WebManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 91EF047418ED32C700F89832 /* WebManager.m */; };
+		91EF047718ED433B00F89832 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 91EF047618ED433B00F89832 /* libxml2.dylib */; };
+		91EF047F18ED44CE00F89832 /* TFHpple.m in Sources */ = {isa = PBXBuildFile; fileRef = 91EF047A18ED44CE00F89832 /* TFHpple.m */; };
+		91EF048018ED44CE00F89832 /* TFHppleElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 91EF047C18ED44CE00F89832 /* TFHppleElement.m */; };
+		91EF048118ED44CE00F89832 /* XPathQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 91EF047E18ED44CE00F89832 /* XPathQuery.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +48,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		918A1CCB19068BB500D997DF /* KeychainItemWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeychainItemWrapper.h; sourceTree = "<group>"; };
+		918A1CCC19068BB500D997DF /* KeychainItemWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeychainItemWrapper.m; sourceTree = "<group>"; };
+		918A1CCE19068C3200D997DF /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		91977B8018F5AB160055B16A /* Main_iphone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main_iphone.storyboard; path = ../Main_iphone.storyboard; sourceTree = "<group>"; };
+		91E80A7418F771CB002C9C06 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		91E80A7518F771CB002C9C06 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		91E80A7818F771D7002C9C06 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		91E80A7918F771D7002C9C06 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		91E80A7B18F7722F002C9C06 /* MenuTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MenuTableViewController.h; path = HPPLE/MenuTableViewController.h; sourceTree = "<group>"; };
+		91E80A7C18F7722F002C9C06 /* MenuTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MenuTableViewController.m; path = HPPLE/MenuTableViewController.m; sourceTree = "<group>"; };
+		91E80A7E18F7723B002C9C06 /* LabelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabelViewController.h; sourceTree = "<group>"; };
+		91E80A7F18F7723B002C9C06 /* LabelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabelViewController.m; sourceTree = "<group>"; };
+		91E80A8218F7802A002C9C06 /* A3GridTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = A3GridTableView.h; sourceTree = "<group>"; };
+		91E80A8318F7802A002C9C06 /* A3GridTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = A3GridTableView.m; sourceTree = "<group>"; };
+		91E80A8418F7802A002C9C06 /* A3GridTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = A3GridTableViewCell.h; sourceTree = "<group>"; };
+		91E80A8518F7802A002C9C06 /* A3GridTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = A3GridTableViewCell.m; sourceTree = "<group>"; };
+		91E80A8818F780BE002C9C06 /* ClassViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassViewController.h; sourceTree = "<group>"; };
+		91E80A8918F780BE002C9C06 /* ClassViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassViewController.m; sourceTree = "<group>"; };
 		91EF043818ED324800F89832 /* myYIDA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myYIDA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		91EF043B18ED324800F89832 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		91EF043D18ED324800F89832 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -44,15 +76,23 @@
 		91EF044918ED324800F89832 /* myYIDA-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "myYIDA-Prefix.pch"; sourceTree = "<group>"; };
 		91EF044A18ED324800F89832 /* MainAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainAppDelegate.h; sourceTree = "<group>"; };
 		91EF044B18ED324800F89832 /* MainAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainAppDelegate.m; sourceTree = "<group>"; };
-		91EF044E18ED324800F89832 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		91EF045018ED324800F89832 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
-		91EF045118ED324800F89832 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		91EF045018ED324800F89832 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		91EF045118ED324800F89832 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		91EF045318ED324800F89832 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		91EF045918ED324800F89832 /* myYIDATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myYIDATests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		91EF045A18ED324800F89832 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		91EF046218ED324800F89832 /* myYIDATests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "myYIDATests-Info.plist"; sourceTree = "<group>"; };
 		91EF046418ED324800F89832 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		91EF046618ED324800F89832 /* myYIDATests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = myYIDATests.m; sourceTree = "<group>"; };
+		91EF047318ED32C700F89832 /* WebManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WebManager.h; path = ../WebManager.h; sourceTree = "<group>"; };
+		91EF047418ED32C700F89832 /* WebManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WebManager.m; path = ../WebManager.m; sourceTree = "<group>"; };
+		91EF047618ED433B00F89832 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		91EF047918ED44CE00F89832 /* TFHpple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHpple.h; sourceTree = "<group>"; };
+		91EF047A18ED44CE00F89832 /* TFHpple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHpple.m; sourceTree = "<group>"; };
+		91EF047B18ED44CE00F89832 /* TFHppleElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHppleElement.h; sourceTree = "<group>"; };
+		91EF047C18ED44CE00F89832 /* TFHppleElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHppleElement.m; sourceTree = "<group>"; };
+		91EF047D18ED44CE00F89832 /* XPathQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPathQuery.h; sourceTree = "<group>"; };
+		91EF047E18ED44CE00F89832 /* XPathQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPathQuery.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +100,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				918A1CCF19068C3200D997DF /* Security.framework in Frameworks */,
+				91EF047718ED433B00F89832 /* libxml2.dylib in Frameworks */,
 				91EF043E18ED324800F89832 /* CoreGraphics.framework in Frameworks */,
 				91EF044018ED324800F89832 /* UIKit.framework in Frameworks */,
 				91EF043C18ED324800F89832 /* Foundation.framework in Frameworks */,
@@ -79,6 +121,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		918A1CCA19068BB500D997DF /* KeyChainItemWrapper */ = {
+			isa = PBXGroup;
+			children = (
+				918A1CCB19068BB500D997DF /* KeychainItemWrapper.h */,
+				918A1CCC19068BB500D997DF /* KeychainItemWrapper.m */,
+			);
+			name = KeyChainItemWrapper;
+			path = HPPLE/KeyChainItemWrapper;
+			sourceTree = "<group>";
+		};
+		91E80A7718F771D7002C9C06 /* SWRevealViewController */ = {
+			isa = PBXGroup;
+			children = (
+				91E80A7818F771D7002C9C06 /* SWRevealViewController.h */,
+				91E80A7918F771D7002C9C06 /* SWRevealViewController.m */,
+			);
+			name = SWRevealViewController;
+			path = HPPLE/SWRevealViewController;
+			sourceTree = "<group>";
+		};
+		91E80A8118F7802A002C9C06 /* A3GridTableView */ = {
+			isa = PBXGroup;
+			children = (
+				91E80A8218F7802A002C9C06 /* A3GridTableView.h */,
+				91E80A8318F7802A002C9C06 /* A3GridTableView.m */,
+				91E80A8418F7802A002C9C06 /* A3GridTableViewCell.h */,
+				91E80A8518F7802A002C9C06 /* A3GridTableViewCell.m */,
+			);
+			path = A3GridTableView;
+			sourceTree = "<group>";
+		};
 		91EF042F18ED324800F89832 = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +174,8 @@
 		91EF043A18ED324800F89832 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				918A1CCE19068C3200D997DF /* Security.framework */,
+				91EF047618ED433B00F89832 /* libxml2.dylib */,
 				91EF043B18ED324800F89832 /* Foundation.framework */,
 				91EF043D18ED324800F89832 /* CoreGraphics.framework */,
 				91EF043F18ED324800F89832 /* UIKit.framework */,
@@ -112,11 +187,23 @@
 		91EF044118ED324800F89832 /* myYIDA */ = {
 			isa = PBXGroup;
 			children = (
-				91EF044A18ED324800F89832 /* MainAppDelegate.h */,
-				91EF044B18ED324800F89832 /* MainAppDelegate.m */,
-				91EF044D18ED324800F89832 /* Main.storyboard */,
-				91EF045018ED324800F89832 /* MainViewController.h */,
-				91EF045118ED324800F89832 /* MainViewController.m */,
+				918A1CCA19068BB500D997DF /* KeyChainItemWrapper */,
+				91E80A8118F7802A002C9C06 /* A3GridTableView */,
+				91E80A7718F771D7002C9C06 /* SWRevealViewController */,
+				91EF047818ED44CE00F89832 /* HPPLE */,
+				91E80A8818F780BE002C9C06 /* ClassViewController.h */,
+				91E80A8918F780BE002C9C06 /* ClassViewController.m */,
+				91EF045018ED324800F89832 /* LoginViewController.h */,
+				91EF045118ED324800F89832 /* LoginViewController.m */,
+				91EF047318ED32C700F89832 /* WebManager.h */,
+				91EF047418ED32C700F89832 /* WebManager.m */,
+				91E80A7B18F7722F002C9C06 /* MenuTableViewController.h */,
+				91E80A7C18F7722F002C9C06 /* MenuTableViewController.m */,
+				91977B8018F5AB160055B16A /* Main_iphone.storyboard */,
+				91E80A7E18F7723B002C9C06 /* LabelViewController.h */,
+				91E80A7F18F7723B002C9C06 /* LabelViewController.m */,
+				91E80A7418F771CB002C9C06 /* MainViewController.h */,
+				91E80A7518F771CB002C9C06 /* MainViewController.m */,
 				91EF045318ED324800F89832 /* Images.xcassets */,
 				91EF044218ED324800F89832 /* Supporting Files */,
 			);
@@ -126,6 +213,8 @@
 		91EF044218ED324800F89832 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				91EF044A18ED324800F89832 /* MainAppDelegate.h */,
+				91EF044B18ED324800F89832 /* MainAppDelegate.m */,
 				91EF044318ED324800F89832 /* myYIDA-Info.plist */,
 				91EF044418ED324800F89832 /* InfoPlist.strings */,
 				91EF044718ED324800F89832 /* main.m */,
@@ -150,6 +239,19 @@
 				91EF046318ED324800F89832 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		91EF047818ED44CE00F89832 /* HPPLE */ = {
+			isa = PBXGroup;
+			children = (
+				91EF047918ED44CE00F89832 /* TFHpple.h */,
+				91EF047A18ED44CE00F89832 /* TFHpple.m */,
+				91EF047B18ED44CE00F89832 /* TFHppleElement.h */,
+				91EF047C18ED44CE00F89832 /* TFHppleElement.m */,
+				91EF047D18ED44CE00F89832 /* XPathQuery.h */,
+				91EF047E18ED44CE00F89832 /* XPathQuery.m */,
+			);
+			path = HPPLE;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,7 +333,7 @@
 			files = (
 				91EF045418ED324800F89832 /* Images.xcassets in Resources */,
 				91EF044618ED324800F89832 /* InfoPlist.strings in Resources */,
-				91EF044F18ED324800F89832 /* Main.storyboard in Resources */,
+				91977B8118F5AB160055B16A /* Main_iphone.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,8 +352,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91E80A8A18F780BE002C9C06 /* ClassViewController.m in Sources */,
+				91E80A8718F7802A002C9C06 /* A3GridTableViewCell.m in Sources */,
+				91EF048018ED44CE00F89832 /* TFHppleElement.m in Sources */,
+				91E80A8618F7802A002C9C06 /* A3GridTableView.m in Sources */,
+				91EF048118ED44CE00F89832 /* XPathQuery.m in Sources */,
+				91EF047F18ED44CE00F89832 /* TFHpple.m in Sources */,
+				91E80A7618F771CB002C9C06 /* MainViewController.m in Sources */,
+				91E80A7D18F7722F002C9C06 /* MenuTableViewController.m in Sources */,
+				918A1CCD19068BB500D997DF /* KeychainItemWrapper.m in Sources */,
+				91EF047518ED32C700F89832 /* WebManager.m in Sources */,
+				91E80A7A18F771D7002C9C06 /* SWRevealViewController.m in Sources */,
 				91EF044818ED324800F89832 /* main.m in Sources */,
-				91EF045218ED324800F89832 /* MainViewController.m in Sources */,
+				91E80A8018F7723B002C9C06 /* LabelViewController.m in Sources */,
+				91EF045218ED324800F89832 /* LoginViewController.m in Sources */,
 				91EF044C18ED324800F89832 /* MainAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -281,14 +395,6 @@
 				91EF044518ED324800F89832 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		91EF044D18ED324800F89832 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				91EF044E18ED324800F89832 /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		91EF046318ED324800F89832 /* InfoPlist.strings */ = {
@@ -334,8 +440,14 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"${SDKROOT}/usr/include/libxml2/**",
+				);
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-lxml2";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -366,7 +478,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"${SDKROOT}/usr/include/libxml2/**",
+				);
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_LDFLAGS = "-lxml2";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -457,6 +575,7 @@
 				91EF046C18ED324800F89832 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		91EF046D18ED324800F89832 /* Build configuration list for PBXNativeTarget "myYIDATests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +584,7 @@
 				91EF046F18ED324800F89832 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

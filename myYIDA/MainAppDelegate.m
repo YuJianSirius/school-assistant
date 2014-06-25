@@ -7,12 +7,13 @@
 //
 
 #import "MainAppDelegate.h"
+#import "WebManager.h"
 
 @implementation MainAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    NSLog(@"didifinsh");
     return YES;
 }
 							
