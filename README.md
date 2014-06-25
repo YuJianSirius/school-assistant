@@ -5,4 +5,4 @@
 
 
 <img src="index.png" width="200">
-<img scr="class.png" width="200">
+<img src="class.png" width="200">
